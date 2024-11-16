@@ -52,3 +52,10 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
+
+.acceso{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
