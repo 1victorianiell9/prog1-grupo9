@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+.delfo{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+
+=======
 body{
     background-color: #DBCAA9;
 }
@@ -36,4 +45,5 @@ header nav ul{
 header nav ul li a{
     text-decoration: none;
     color: black;
+>>>>>>> 2aff76cb30c91c17735d64b950bd229987233907
 }
