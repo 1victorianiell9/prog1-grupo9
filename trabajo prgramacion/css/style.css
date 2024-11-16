@@ -52,3 +52,8 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
+
+.titulo_home {
+    display: flex;
+    justify-content: center;
+}
