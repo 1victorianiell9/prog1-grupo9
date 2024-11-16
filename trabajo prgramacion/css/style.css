@@ -1,11 +1,4 @@
 
-.delfo{
-    display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 body{
     background-color: #DBCAA9;
     padding-left: 100px;
@@ -53,9 +46,15 @@ footer{
     justify-content: flex-end;
 }
 
+<<<<<<< HEAD
 .acceso{ 
     display: flex;
     flex-direction: column;
     align-items: center;
 
+=======
+.titulo_home {
+    display: flex;
+    justify-content: center;
+>>>>>>> 9ccf070cc7b9b1920be9440b231cf50212417b74
 }
