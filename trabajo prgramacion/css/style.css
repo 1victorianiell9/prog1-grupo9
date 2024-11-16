@@ -1,28 +1,14 @@
-<<<<<<< HEAD
-.delfo{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 
-}
-  
-}
-body{
-  width: 100%;
-}
-.catfotos{
-  width: 20%;
-}
-
-=======
 body{
     background-color: #DBCAA9;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -53,5 +39,14 @@ header nav ul{
 header nav ul li a{
     text-decoration: none;
     color: black;
->>>>>>> 2aff76cb30c91c17735d64b950bd229987233907
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo_home {
+    display: flex;
+    justify-content: center;
 }
