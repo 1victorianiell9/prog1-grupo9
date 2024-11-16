@@ -1,9 +1,17 @@
 <<<<<<< HEAD
 .delfo{
-    display: flex;
-  flex-wrap: wrap;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+}
+  
+}
+body{
+  width: 100%;
+}
+.catfotos{
+  width: 20%;
 }
 
 =======
