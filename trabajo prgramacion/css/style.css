@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .delfo{
     display: flex;
   flex-wrap: wrap;
@@ -5,4 +6,44 @@
   justify-content: space-between;
  
 
+=======
+body{
+    background-color: #DBCAA9;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo {
+    height: 100px;
+}
+
+header form input{
+    height: 50px;
+    width:500px;
+    padding: 0px;
+}
+header form button{
+    height: 50px;
+
+}
+
+header nav{
+    width: 200px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+>>>>>>> 2aff76cb30c91c17735d64b950bd229987233907
 }
