@@ -50,4 +50,32 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.acceso input {
+    width: 70%;
+    height: 35px;
+}
+
+.login{
+    border: solid rgb(102, 160, 181) 3px;
+    width: 20%;
+    margin-left: 500px;
+    height: 300px;
+    background-color: rgb(123, 156, 178);
+    margin-top: 50px;
+    margin-bottom: 170px;
+}
+
+.link{
+    color: black;
+}
+
+.boton{
+    width: 75%;
+    height: 35px;
+    background-color:  rgb(101, 146, 176);
+    box-shadow: 20px;
 }
