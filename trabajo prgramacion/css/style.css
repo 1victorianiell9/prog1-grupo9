@@ -79,3 +79,23 @@ footer{
     background-color:  rgb(101, 146, 176);
     box-shadow: 20px;
 }
+
+.foto_receta{
+    width: 100%;
+}
+
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lista_recetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.receta {
+    width: 35%;
+}
