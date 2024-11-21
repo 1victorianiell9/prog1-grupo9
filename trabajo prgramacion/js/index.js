@@ -19,7 +19,7 @@ fetch(URL)
             <a href="'https://dummyjson.com/recipes/${i}'}" class="link_detalle">link de detalle</a>
         </article>`
     };
-
+    console.log(recetas)
     lista_recetas.innerHTML = recetas;
 })
 
