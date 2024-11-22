@@ -1,24 +1,22 @@
-const formulario = document.querySelector(".registro");
+let formulario = document.querySelector(".registro");
+let mensaje = document.querySelector(".vic")
+let email = document.querySelector(".usuario")
+let password = document.querySelector(".contra")
+let texto = document.querySelector(".Niell")
+
 
 formulario.addEventListener("submit", function (event) {
   event.preventDefault();
-  
-  const email = document.querySelector(".usuario").value.trim();
-  const contraseña = document.querySelector(".contra").value.trim();
-  const terminos = document.querySelector(".terminos").value.trim();
 
-  if (email === "") {
-    prompt("Por favor complete el campo email"); 
-    return;  
+  
+  if ( email.value=="") { 
+     mensaje.innerHTML="<p>*Por favor completar el campo</p>"
+     
   }
-  if (contraseña === "") {
-    prompt("Por favor complete el campo contraseña"); 
-    return; 
-  }
-  if (terminos === "") {
-    prompt("por favor ascepte los termnos y condiciones"); 
-    return; 
+  if (password.value == "") {
+     texto.innerHTML="<p>*Por favor completar el campo</p>"
   }
   
+  window.location.href = "./login.html"; 
 });
 

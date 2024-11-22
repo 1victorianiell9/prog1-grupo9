@@ -16,7 +16,7 @@ fetch(url)
     for(let i =0; i < data.length ; i++) {
         tags +=
         `
-        <li><a href="./category.html?id=${i}">${data[i]}</a></li>
+        <li><a href="./category.html?tag=${data[i]}">${data[i]}</a></li>
         `
     };
 

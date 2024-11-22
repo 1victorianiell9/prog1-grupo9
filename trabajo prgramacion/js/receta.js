@@ -1,11 +1,11 @@
 let queryString = location.search;
 let id = new URLSearchParams(queryString);
 
-id = id.get(id);
+id = id.get("id");
 
-id = id+1
 
 let URL = `https://dummyjson.com/recipes/${id}`
+console.log(URL)
 
 let div = document.querySelector("#recipe")
 
