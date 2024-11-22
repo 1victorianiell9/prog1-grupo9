@@ -105,10 +105,6 @@ footer{
     justify-content: space-around;
 }
 
-.receta {
-    width: 100%;
-}
-
 .registro{
     display: flex;
     flex-direction: column;
@@ -161,6 +157,7 @@ footer{
     padding: 20px;
     border: solid 5px brown;
     background-color: rgba(210, 163, 98, 0.887);
+    width: 100%;
 }
 
 .borde {
@@ -215,4 +212,61 @@ footer{
     margin-right: 140px;
     color: brown;
     font-size: x-small;
+}
+#recipe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border: solid rgb(150, 82, 40) 2px;
+   
+}
+.img_receta{
+    width: 500px;
+    border: solid 5px brown;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.listrec{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(229, 173, 94, 0.845);
+    margin: 10px;
+    border: solid rgb(239, 142, 81) 2px;
+   
+}
+.delfi{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 100%;
+    background-color: rgba(229, 173, 94, 0.845);
+    margin: 10px;
+    border: solid rgb(239, 142, 81) 2px;
+}
+#category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#category .borde{
+    width: 70%;
+}
+
+.tituCate {
+    display: flex;
+    width: 100%;
+    background-color: rgba(210, 163, 98, 0.887);
+    height: 60px;
+    justify-content: center;
+    border: solid brown 5px;
+    color: black;
+    align-items: center;
+    
 }

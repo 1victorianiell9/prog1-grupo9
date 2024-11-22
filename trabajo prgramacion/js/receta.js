@@ -1,11 +1,11 @@
 let queryString = location.search;
 let id = new URLSearchParams(queryString);
 
-id = id.get(id);
+id = id.get("id");
 
-id = id+1
 
 let URL = `https://dummyjson.com/recipes/${id}`
+console.log(URL)
 
 let div = document.querySelector("#recipe")
 
@@ -19,17 +19,19 @@ fetch(URL)
    console.log(data)
        detalle =
        
-       `<h1>${data.name}</h1>`
+       `<h1>${data.name}</h1>
+       <p class="delfi">Instruciones </p>      `
        let instrucciones = ""
        for (i=0; i<(data.instructions).length; i++){
             instrucciones+= `<li>${data.instructions[i]}</li>`
        }
-       detalle += `<ul>${instrucciones}</ul>`
+       detalle += `<ul class="listrec">${instrucciones}</ul>`
        detalle +=
        `
-        <p class="tiempo">${data.prepTimeMinutes}</p>
-        <img src="${data.image}" alt="">
-        <p class="cat">${data.tags}</p>
+
+        <p class="delfi">Prep time:${data.prepTimeMinutes}</p>
+        <img class="img_receta" src="${data.image}" alt="">
+        
         `
         let tags = ""
         for (i=0; i<(data.tags).length; i++){

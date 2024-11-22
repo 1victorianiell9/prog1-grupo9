@@ -32,7 +32,7 @@ fetch(URL)
                 <img class="foto_receta" src="${recipes[i].image}" alt="">
                 <h1 class="titulo_receta">${recipes[i].name}</h1>
                 <p class="nivel_dificultad">${recipes[i].difficulty}</p>
-                <a href="./receta.html?id=${i}" class="link_detalle">link de detalle</a>
+                <a href="./receta.html?id=${i}" class="link_detalle">Detalle</a>
             </article>
         </article>`
    };
@@ -69,11 +69,10 @@ boton.addEventListener("click", function (event){
                     <img class="foto_receta" src="${recipes[i].image}" alt="">
                     <h1 class="titulo_receta">${recipes[i].name}</h1>
                     <p class="nivel_dificultad">${recipes[i].difficulty}</p>
-                    <a href="./receta.html?name=${recipes[i].name}" class="link_detalle">link de detalle</a>
+                    <a href="./receta.html?id=${i}" class="link_detalle">Detalle</a>
                 </article>
             </article>`
        };
-       console.log(recetas)
        lista_recetas.innerHTML += recetas;
    })
 
