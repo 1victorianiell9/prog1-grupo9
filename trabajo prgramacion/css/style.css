@@ -191,3 +191,7 @@ footer{
     color: rgb(255, 234, 178);
     border: solid rgb(255, 234, 178) 2px;
 }
+.resetita img{
+    display: flex;
+    align-items: center;
+}
