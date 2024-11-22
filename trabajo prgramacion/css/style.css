@@ -72,11 +72,10 @@ footer{
 .login{
     border: solid rgb(102, 160, 181) 3px;
     width: 30%;
-    margin-left: 400px;
     height: 400px;
     background-color: rgb(123, 156, 178);
-    margin-top: 50px;
-    margin-bottom: 170px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .link{
@@ -126,11 +125,10 @@ footer{
 .registrarse{
     border: solid rgb(102, 160, 181) 3px;
     width: 30%;
-    margin-left: 400px;
     height: 500px;
     background-color: rgb(123, 156, 178);
-    margin-top: 50px;
-    margin-bottom: 170px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .ingreso{
@@ -189,3 +187,18 @@ footer{
 
 }
 
+.vic{
+    margin-top: 0px;
+    margin-bottom: opx;
+    margin-right: 140px;
+    color: brown;
+    font-size: x-small;
+}
+
+.Niell{
+    margin-top: 0px;
+    margin-bottom: opx;
+    margin-right: 140px;
+    color: brown;
+    font-size: x-small;
+}
