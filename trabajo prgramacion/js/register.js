@@ -11,10 +11,11 @@ formulario.addEventListener("submit", function (event) {
   
   if ( email.value=="") { 
      mensaje.innerHTML="<p>*Por favor completar el campo</p>"
-     
+    return;
   }
   if (password.value == "") {
      texto.innerHTML="<p>*Por favor completar el campo</p>"
+     return;
   }
   
   window.location.href = "./login.html"; 

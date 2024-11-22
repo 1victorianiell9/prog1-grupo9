@@ -117,9 +117,23 @@ footer{
     height: 100%;
 }
 
-.registro input{
+.registro div .usuario {
     width: 70%;
     height: 35px;
+}
+.registro div .contra {
+    width: 70%;
+    height: 35px;
+}
+.registro div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.terminos{
+    margin: 0%;
+    width: 100px;
 }
 
 .registrarse{

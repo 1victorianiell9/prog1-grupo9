@@ -1,3 +1,14 @@
+let buscador =document.querySelector(".in");
+buscador.addEventListener('')
+
+
+
+
+
+
+
+
+
 let URL = "https://dummyjson.com/recipes";
 
 
