@@ -249,6 +249,7 @@ footer{
     margin: 10px;
     border: solid rgb(239, 142, 81) 2px;
 }
+
 #category{
     display: flex;
     flex-direction: column;
