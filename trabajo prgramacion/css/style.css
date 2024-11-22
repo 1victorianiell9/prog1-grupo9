@@ -106,10 +106,6 @@ footer{
     justify-content: space-around;
 }
 
-.receta {
-    width: 100%;
-}
-
 .registro{
     display: flex;
     flex-direction: column;
@@ -149,6 +145,7 @@ footer{
     padding: 20px;
     border: solid 5px brown;
     background-color: rgba(210, 163, 98, 0.887);
+    width: 100%;
 }
 
 .borde {
@@ -198,4 +195,26 @@ footer{
 .resetita img{
     display: flex;
     align-items: center;
+}
+
+#category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#category .borde{
+    width: 70%;
+}
+
+.tituCate {
+    display: flex;
+    width: 100%;
+    background-color: rgba(210, 163, 98, 0.887);
+    height: 60px;
+    justify-content: center;
+    border: solid brown 5px;
+    color: black;
+    align-items: center;
+    
 }
