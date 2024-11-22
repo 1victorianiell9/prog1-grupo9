@@ -65,8 +65,11 @@ boton.addEventListener("click", function (event){
             </article>`
        };
        lista_recetas.innerHTML += recetas;
+
        if(recipes.length < 10) {
         //ocultar boton
+
+        boton.style.display = "none";
 
        }
    })

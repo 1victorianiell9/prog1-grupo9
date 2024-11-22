@@ -1,12 +1,13 @@
 let form = document.querySelector(".busca")
 let input = document.querySelector(".in");
+let value = input.value
 
 form.addEventListener("submit", function(event){
-    if (input.value == ""){
+    if (value == ""){
         alert(" ");
         event.preventDefault();
-    }else if (input.value < 3){
-        alert ("Mneor a 3");
+    }else if (value.length < 3){
+        alert("Menor a 3");
         event.preventDefault()
     }
 })
