@@ -3,7 +3,7 @@ const formulario = document.querySelector(".acceso");
 
 formulario.addEventListener("submit", function (event) {
   event.preventDefault();
-  
+
   const email = document.querySelector(".username").value.trim();
   const contraseña = document.querySelector(".contraseña").value.trim();
 
