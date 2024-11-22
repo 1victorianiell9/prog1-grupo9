@@ -53,12 +53,14 @@ boton.addEventListener("click", function (event){
        let recipes = data.recipes;
        for(let i = 10; i<recipes.length ; i++) {
            recetas +=
-           `<article class="receta">
-               <img class="foto_receta" src="${recipes[i].image}" alt="">
-               <h1 class="titulo_receta">${recipes[i].name}</h1>
-               <p class="nivel_dificultad">${recipes[i].difficulty}</p>
-               <a href="'https://dummyjson.com/recipes/${i}'}" class="link_detalle">link de detalle</a>
-           </article>`
+           `<article class="borde">
+                <article class="receta">
+                    <img class="foto_receta" src="${recipes[i].image}" alt="">
+                    <h1 class="titulo_receta">${recipes[i].name}</h1>
+                    <p class="nivel_dificultad">${recipes[i].difficulty}</p>
+                    <a href="'https://dummyjson.com/recipes/${i}'}" class="link_detalle">link de detalle</a>
+                </article>
+            </article>`
        };
        console.log(recetas)
        lista_recetas.innerHTML += recetas;
