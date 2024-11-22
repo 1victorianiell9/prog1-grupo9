@@ -106,6 +106,41 @@ footer{
     width: 100%;
 }
 
+.registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.registro input{
+    width: 70%;
+    height: 35px;
+}
+
+.registrarse{
+    border: solid rgb(102, 160, 181) 3px;
+    width: 30%;
+    margin-left: 400px;
+    height: 500px;
+    background-color: rgb(123, 156, 178);
+    margin-top: 50px;
+    margin-bottom: 170px;
+}
+
+.ingreso{
+    width: 75%;
+    height: 35px;
+    background-color:  rgb(101, 146, 176);
+    
+}
+
+.terminos{
+    margin-right: 230px;
+
+}
+
 .receta{
     padding: 20px;
     border: solid 5px brown;
