@@ -13,6 +13,7 @@ fetch(URL)
 .then(function(data){
    let recetas = "";
    let recipes = data.recipes;
+   console.log(recipes)
    for(let i = 0; i<10 ; i++) {
        recetas +=
        `<article class="borde">
@@ -20,11 +21,10 @@ fetch(URL)
                 <img class="foto_receta" src="${recipes[i].image}" alt="">
                 <h1 class="titulo_receta">${recipes[i].name}</h1>
                 <p class="nivel_dificultad">${recipes[i].difficulty}</p>
-                <a href="'https://dummyjson.com/recipes/${i}'}" class="link_detalle">link de detalle</a>
+                <a href="./receta.html?id=${i}" class="link_detalle">link de detalle</a>
             </article>
         </article>`
    };
-   console.log(recetas)
    lista_recetas.innerHTML = recetas;
 })
 
@@ -58,7 +58,7 @@ boton.addEventListener("click", function (event){
                     <img class="foto_receta" src="${recipes[i].image}" alt="">
                     <h1 class="titulo_receta">${recipes[i].name}</h1>
                     <p class="nivel_dificultad">${recipes[i].difficulty}</p>
-                    <a href="'https://dummyjson.com/recipes/${i}'}" class="link_detalle">link de detalle</a>
+                    <a href="./receta.html?name=${recipes[i].name}" class="link_detalle">link de detalle</a>
                 </article>
             </article>`
        };
