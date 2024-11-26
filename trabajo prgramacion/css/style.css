@@ -17,35 +17,74 @@ header {
     background-color: rgba(210, 163, 98, 0.887);
     height: 100px;
     width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 header .logo {
-    height: 60px;
+    height: 70%;
+    border-radius: 10px;
+}
+
+header form {
+    height: 70%;
+    width: 50%;
 }
 
 header form input{
-    height: 50px;
+    height: 90%;
     width:500px;
     padding: 0px;
+    border-radius: 10px;
+    background-color: #DBCAA9;
+    border: solid 2px brown;
+    text-transform: uppercase;
+
 }
 header form button{
-    height: 50px;
+    height: 90%;
+    padding: 0px;
+    border-radius: 10px;
+    width: 12%;
+    background-color: #DBCAA9;
+    border: solid 2px brown;
+    text-transform: uppercase;
+    color: #6a6254;
 
 }
 
 header nav{
-    width: 200px;
+    width: 30%;
+    height: 30%;
 }
 
 header nav ul{
+    width: 100%;
+    height: 100%;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    margin: 0px;
     padding: 0px;
+    
 }
+header nav ul li {
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #DBCAA9;
+    border: solid 2px brown;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header nav ul li a{
+    margin: 0px;
     text-decoration: none;
     color: black;
+    padding: 0px;
 }
 
 footer{
@@ -54,6 +93,7 @@ footer{
     background-color: rgba(210, 163, 98, 0.887);
     padding: 10px;margin-top: 10px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .acceso{
@@ -167,6 +207,19 @@ footer{
     justify-content: center;
     margin: 0px;
     margin-bottom: 15px;
+}
+
+
+.skip {
+    padding: 0px;
+    height: 30px;
+    border-radius: 10px;
+    width: 12%;
+    border: solid 2px brown;
+    text-transform: uppercase;
+    color: #2c2923;
+    background-color: rgb(210, 163, 98);
+    text-transform: uppercase;
 }
 
 .categories {
