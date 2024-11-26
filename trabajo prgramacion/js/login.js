@@ -4,8 +4,8 @@ const formulario = document.querySelector(".acceso");
 formulario.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const email = document.querySelector(".username").value.trim();
-  const contraseña = document.querySelector(".contraseña").value.trim();
+  let email = document.querySelector(".username").value.trim();
+  let contraseña = document.querySelector(".contraseña").value.trim();
 
   if (email === "") {
     alert("Por favor complete el campo email"); 
