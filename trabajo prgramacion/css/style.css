@@ -6,7 +6,7 @@ body{
     background-image: url(../media/fondo.webp);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 
@@ -102,7 +102,7 @@ footer{
 .lista_recetas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .registro{
