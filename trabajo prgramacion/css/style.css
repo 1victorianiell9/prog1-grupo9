@@ -331,3 +331,11 @@ footer{
     color: brown;
     font-size: x-small;
 }
+
+.lista_recetas{
+    margin-top: 20px;
+    color: brown;
+    font-size: 30px;
+    margin-bottom: 40%;
+    
+}
