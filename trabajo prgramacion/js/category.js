@@ -2,7 +2,6 @@
 let queryString = location.search;
 let tag = new URLSearchParams(queryString);
 
-
 tag = tag.get('tag');
 
 console.log(tag)
