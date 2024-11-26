@@ -102,7 +102,7 @@ footer{
 .lista_recetas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .registro{
@@ -165,7 +165,8 @@ footer{
     width: 30%;
     display: flex;
     justify-content: center;
-    margin: 15px;
+    margin: 0px;
+    margin-bottom: 15px;
 }
 
 .categories {
@@ -252,13 +253,11 @@ footer{
 
 #category{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#category .borde{
-    width: 70%;
-}
+
 
 .tituCate {
     display: flex;

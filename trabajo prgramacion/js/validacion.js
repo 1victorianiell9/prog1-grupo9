@@ -1,13 +1,15 @@
 let form = document.querySelector(".busca")
 let input = document.querySelector(".in");
-let value = input.value
+
 
 form.addEventListener("submit", function(event){
+    let value = input.value
     if (value == ""){
-        alert(" ");
+        alert("El campo está vacío");
         event.preventDefault();
     }else if (value.length < 3){
-        alert("Menor a 3");
+        alert("tiene que escribir al menos 3 caracteres");
         event.preventDefault()
     }
 })
+
