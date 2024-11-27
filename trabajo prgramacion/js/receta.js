@@ -2,7 +2,6 @@ let queryString = location.search;
 let id = new URLSearchParams(queryString);
 
 id = id.get("id");
-id = Number(id) +1
 
 
 let URL = `https://dummyjson.com/recipes/${id}`
