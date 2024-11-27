@@ -146,6 +146,10 @@ footer{
     justify-content: space-around;
 }
 
+#index_body {
+    margin-bottom: 20px;
+}
+
 .registro{
     display: flex;
     flex-direction: column;
