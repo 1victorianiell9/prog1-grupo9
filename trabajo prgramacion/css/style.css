@@ -436,6 +436,13 @@ footer{
             width: 100%;
        }
 
+       .listrec{
+            width: 80%;
+       }
+       .img_receta{
+        width: 250px;
+       }
+
     }
 
 
