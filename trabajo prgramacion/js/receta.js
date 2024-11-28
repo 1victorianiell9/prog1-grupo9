@@ -5,7 +5,6 @@ id = id.get("id");
 
 
 let URL = `https://dummyjson.com/recipes/${id}`
-console.log(URL)
 
 let div = document.querySelector("#recipe")
 
@@ -16,7 +15,6 @@ fetch(URL)
 
 .then(function(data){
    let detalle = "";
-   console.log(data)
        detalle =
        
        `<h1>${data.name}</h1>
