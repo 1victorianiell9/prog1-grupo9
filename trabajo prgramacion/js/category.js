@@ -29,11 +29,10 @@ return response.json();
                         <img class="foto_receta" src="${recipes[i].image}" alt="">
                         <h1 class="titulo_receta">${recipes[i].name}</h1>
                         <p class="nivel_dificultad">${recipes[i].difficulty}</p>
-                        <a href="./receta.html?name=${recipes[i].name}" class="link_detalle">Detalle</a>
+                        <a href="./receta.html?id=${recipes[i].id}" class="link_detalle">Detalle</a>
                     </article>
                 </article>`
     }
-    console.log(lista)
     category.innerHTML = lista;
 })
 

@@ -4,9 +4,11 @@ body{
     padding-left: 100px;
     padding-right: 100px;
     background-image: url(../media/fondo.webp);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-size: 100%;
 }
 
 
@@ -150,12 +152,29 @@ footer{
     margin-bottom: 20px;
 }
 
+.kiku {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kiku .titulo_home{
+    font-size: 50px;
+    color: rgb(79, 20, 20);
+}
+
+
 .registro{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 100%;
+}
+
+.italian_tiramisu{
+    margin: 0px;
 }
 
 .registro div .usuario {
@@ -361,86 +380,92 @@ footer{
             align-items: center;
         }
     
-        header {
-            flex-direction: column;
-            height: auto;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-    
-        header .logo {
-            height: 50px;
-            margin-bottom: 10px;
-        }
-    
-        header form {
-            width: 100%;
-            margin-bottom: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        header form input {
-            width: 100%;
-            height: 40px;
-        }
-    
-        header form button {
-            width: 100%;
-            height: 40px;
-            margin-top: 5px;
-        }
-    
-        header nav {
-            width: 100%;
-        }
-    
-        header nav ul {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-        }
-    
-        header nav ul li {
-            width: 100%;
-            margin-bottom: 5px;
-        }
-    
-        header nav ul li a {
-            text-align: center;
-            width: 100%;
-        }
-        .acceso{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            height: 100%;
-        }
-        .login{
-            width: 100%;
-            margin: 0px;
-        }
-        .registrarse{
-            width: 100%;
-            margin: 0px;
-            height: 380px;
-        }
-        
-       .categories li{
-            width: 40%;
-       }
-       .skip{
-            width: 40%;
-       }
-       .borde{
-            width: 100%;
-       }
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+    }
 
-       .receta{
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    header .logo {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    header form {
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header form input {
+        width: 100%;
+        height: 40px;
+    }
+
+    header form button {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header nav ul li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    header nav ul li a {
+        text-align: center;
+        width: 100%;
+    }
+    .acceso{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+    }
+    .login{
+        width: 100%;
+        margin: 0px;
+    }
+    .registrarse{
+        width: 100%;
+        margin: 0px;
+        height: 380px;
+    }
+    
+    .categories li{
+        width: 40%;
+    }
+    .skip{
+        width: 40%;
+    }
+    .borde{
+        width: 100%;
+    }
+
+    .receta{
         padding: 20px;
         border: solid 5px brown;
         background-color: rgba(210, 163, 98, 0.887);
@@ -449,7 +474,7 @@ footer{
     
     .borde {
         border: dotted 5px brown;
-        width: 30%;
+        width: 100%;
         display: flex;
         justify-content: center;
         margin: 0px;
@@ -488,7 +513,6 @@ footer{
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        margin-left: 5%;
     }
     .delfi{
        
