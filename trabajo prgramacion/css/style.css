@@ -33,7 +33,7 @@ header form {
 
 header form input{
     height: 90%;
-    width:500px;
+    width: 80%;
     padding: 0px;
     border-radius: 10px;
     background-color: #DBCAA9;
@@ -353,7 +353,7 @@ footer{
 }
     
     
-    @media(max-width : 320px){
+    @media(max-width : 420px){
         
         body {
             padding-left: 10px;
