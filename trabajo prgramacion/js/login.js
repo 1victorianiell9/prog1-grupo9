@@ -2,16 +2,20 @@
 const formulario = document.querySelector(".acceso");
 
 formulario.addEventListener("submit", function (event) {
-  event.preventDefault();
+  event.preventDefault(); 
 
-  let email = document.querySelector(".username").value.trim();
-  let contraseña = document.querySelector(".contraseña").value.trim();
+  let email = document.querySelector(".username").value;
+  
+  let contraseña = document.querySelector(".contraseña").value;
+  
 
-  if (email === "") {
+  if (email == "") {
+  
     alert("Por favor complete el campo email"); 
     return;  
   }
-  if (contraseña === "") {
+  if (contraseña == "") {
+    
     alert("Por favor complete el campo contraseña"); 
     return; 
   }
