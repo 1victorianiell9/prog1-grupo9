@@ -5,16 +5,16 @@ formulario.addEventListener("submit", function (event) {
   
 
   let email = document.querySelector(".username").value;
-  let contraseña = document.querySelector(".contraseña").value;
-  
+  let contrasena = document.querySelector(".contrasena").value;
+  event.preventDefault(); 
   if (email == "") {
     alert("Por favor complete el campo email"); 
-    event.preventDefault(); 
     return;  
-  }else if (contraseña == "") {
+  }else if (contrasena == "") {
     alert("Por favor complete el campo contraseña"); 
-    event.preventDefault(); 
     return; 
+  }else {
+    this.submit()
   }
    
 });

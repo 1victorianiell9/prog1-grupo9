@@ -19,7 +19,11 @@ fetch(URL)
     let recipes = data.recipes;
     console.log(recipes)
     if (recipes.length==0){
-        let mensaje = `<p class="sin_resultados">No hay resultados para su busqueda</p>`
+        let mensaje = `<section class="kiku">
+                            <h1 class="titulo_home">
+                                No hay resultados para su busqueda
+                            </h1>
+                        </section>`
         lista_recetas.innerHTML = mensaje
     }else{
         for(let i = 0; i<recipes.length ; i++) {

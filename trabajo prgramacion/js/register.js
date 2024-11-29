@@ -10,22 +10,19 @@ let parrafo = document.querySelector(".maga")
 
 formulario.addEventListener("submit", function (event) {
 
-  
+  event.preventDefault(); 
   if ( email.value=="") { 
      mensaje.innerHTML="<p>*Por favor completar el campo</p>"
-     event.preventDefault();
     return;
   }else if (password.value == "") {
      texto.innerHTML="<p>*Por favor completar el campo</p>"
-     event.preventDefault();
      return;
   }else if (check.checked==false){
     parrafo.innerHTML="<p>Aceptar terminos y condiciones</p>"
-    event.preventDefault()
     return;
+  }else {
+    this.submit()
   }
   
-  
-
 });
 

@@ -18,7 +18,11 @@ fetch(URL)
    let detalle = "";
    detalle =
    
-   `<h1 class="italian_tiramisu">${data.name}</h1>
+   `<section class="kiku">
+        <h1 class="titulo_home">
+            ${data.name}
+        </h1>
+    </section>
    <p class="delfi">Instruciones </p>      `
    let instrucciones = ""
    for (i=0; i<(data.instructions).length; i++){
